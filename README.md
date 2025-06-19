@@ -1,7 +1,7 @@
 # Frontend Battle Round 1 – Submission
 
 ## 🚀 Live Project
-[🔗 Live Site](https://your-live-link.netlify.app)
+[🔗 Live Site]( https://legendaryslayer.github.io/Frontend-Battle/)
 
 ## 📂 GitHub Repository
 [🔗 Source Code](https://github.com/yourusername/frontend-battle)
