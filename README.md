@@ -4,7 +4,7 @@
 [🔗 Live Site]( https://legendaryslayer.github.io/Frontend-Battle/)
 
 ## 📂 GitHub Repository
-[🔗 Source Code]([https://github.com/LegendarySlayer/frontend-battle)
+[🔗 Source Code]([https://github.com/LegendarySlayer/frontend-battle])
 
 ## ✅ Features Implemented
 - Fully Responsive layout
