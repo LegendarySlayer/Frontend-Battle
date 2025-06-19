@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Battle 2.0 - Professional Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <!-- Professional Loader -->
+      <!-- Loader -->
+  <div id="loader">
+    <img src="assets/loader/loader.svg" alt="Loading..." />
+  </div>
+
+  <!-- Main App -->
+  <div id="app" class="hidden">
+    <!-- Navbar -->
+    <nav id="navbar">
+      <a href="#hero" class="nav-link active">Home</a>
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#video" class="nav-link">Video</a>
+      <a href="#testimonials" class="nav-link">Testimonials</a>
+      <a href="#enhancements" class="nav-link">Enhancements</a>
+      <a href="#showcase" class="nav-link">Showcase</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <button id="toggle-theme" aria-label="Toggle theme">🌙</button>
+    </nav>
+
+    <!-- Hero Section with Background Video -->
+    <section id="hero">
+      <video autoplay muted loop class="bg-video">
+        <source src="assets/videos/homepage.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <!-- <div class="hero-content">
+        <h1>Frontend Battle 2.0</h1>
+        <p>Pixel perfect. Fully responsive. Light & Dark ready.</p>
+      </div> -->
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <h2>Professional Features</h2>
+      <ul>
+        <li>Responsive Design System</li>
+        <li>Advanced Light/Dark Mode</li>
+        <li>Custom SVG Loader</li>
+        <li>Optimized Video Integration</li>
+        <li>Interactive Gallery</li>
+        <li>Intelligent Sticky Navigation</li>
+        <li>Performance Optimized</li>
+        <li>Accessibility Compliant</li>
+      </ul>
+    </section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+  <h2>Design Gallery</h2>
+  
+  <div class="image-placeholder">
+    <img src="assets/images/graph.png" alt="Graph UI Design" class="gallery-image" />
+  </div>
+  
+  <div class="image-placeholder">
+    <img src="assets/images/cards.png" alt="Card Component Design" class="gallery-image" />
+  </div>
+  
+  <div class="image-placeholder">
+    <img src="assets/images/stats.png" alt="Stats Panel Design" class="gallery-image" />
+  </div>
+</section>
+
+
+
+    <!-- Video Showcase Section -->
+    <section id="video">
+      <h2>Video Showcase</h2>
+      <video controls width="100%">
+        <source src="assets/videos/features-services.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+   <section id="testimonials">
+  <h2>Client Success Stories</h2>
+  <div class="video-center">
+    <video controls width="600">
+      <source src="assets/videos/customer-section.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+
+    <!-- Enhancements Section -->
+    <section id="enhancements">
+      <h2>Advanced UI Interactions</h2>
+      <div class="video-row">
+        <video controls width="300">
+          <source src="assets/videos/ripple effect.mp4" type="video/mp4" />
+        </video>
+        <video controls width="300">
+          <source src="assets/videos/scroll and pop up.mp4" type="video/mp4" />
+        </video>
+        <video controls width="300">
+          <source src="assets/videos/parallax animation.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase">
+      <h2>Portfolio Showcase</h2>
+      <video controls width="500">
+        <source src="assets/videos/showcase work.mp4" type="video/mp4" />
+      </video>
+      <video controls width="500">
+        <source src="assets/videos/caraousel switch.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Let's Connect</h2>
+      <p>Ready to elevate your frontend game?</p>
+      <p>📧 contact@frontendmaster.dev</p>
+    </section>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
